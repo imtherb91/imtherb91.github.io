@@ -25,6 +25,13 @@ body {
     text-align: left;
 }
 
+.wrapperNoPadding {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 header {
     background-color: #eee;
 }
@@ -62,12 +69,56 @@ nav li a.selected {
 .site-title {
     color: #F05445;
     text-align: center;
-    font-size: 300%;
+    font-size: 50px;
     font-weight: bold;
 }
 
+.site-subtitle {
+    color: #949494;
+    text-align: center;
+    font-size: 26px;
+}
+
 .profile-image {
-    margin: 20px
+    margin: 20px;
+}
+
+.app-icon {
+    width: 125px;
+    height: 125px;
+    margin: 20px;
+}
+
+.app-title {
+    font-size: 62px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.app-subtitle {
+    font-size: 32px;
+    color: #949494;
+    text-align: left;
+}
+
+.app-description {
+    font-size: 26px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    align-items: center;
+}
+
+.appInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 h1 {
