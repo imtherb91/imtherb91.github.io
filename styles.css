@@ -83,6 +83,40 @@ nav li a.selected {
     margin: 20px;
 }
 
+.insta {
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.twitter {
+    height: 33.27px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.yt {
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.email {
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.linkedin {
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-image {
+    height: 30px;
+}
+
 @media screen and (max-width: 600px) {
     .app-icon {
         width: 85px;
@@ -164,7 +198,7 @@ nav li a.selected {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
+    padding-top: 40px;
     align-items: center;
 }
 
