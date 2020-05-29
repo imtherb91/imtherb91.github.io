@@ -85,8 +85,8 @@ nav li a.selected {
 
 @media screen and (max-width: 600px) {
     .app-icon {
-        width: 75px;
-        height: 75px;
+        width: 85px;
+        height: 85px;
         margin: 10px;
     }
 }
@@ -152,6 +152,9 @@ nav li a.selected {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .horizontal {
