@@ -127,34 +127,50 @@ nav li a.selected {
     }
 }
 
+@media screen and (max-width: 414px) {
+:root {
+    --social-icon-scale: 0.75;
+    --social-icon-padding: calc(0.75 * 20.0px);
+}
+}
+
+@media screen and (min-width: 415px) {
+:root {
+    --social-icon-scale: 1.0;
+    --social-icon-padding: 20px;
+}
+}
+
 .insta {
-    height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: calc(40px  * var(--social-icon-scale));
+    padding-left: var(--social-icon-padding);
+    padding-right: var(--social-icon-padding);
 }
 
 .twitter {
-    height: 33.27px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: calc(33.27px  * var(--social-icon-scale));
+    padding-left: var(--social-icon-padding);
+    padding-right: var(--social-icon-padding);
 }
 
 .yt {
-    height: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: calc(35px * var(--social-icon-scale));
+    padding-left: var(--social-icon-padding);
+    padding-right: var(--social-icon-padding);
+    
 }
 
 .email {
-    height: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: calc(35px  * var(--social-icon-scale));
+    padding-left: var(--social-icon-padding);
+    padding-right: var(--social-icon-padding);
+    transform: var(--social-icon-scale);
 }
 
 .linkedin {
-    height: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: calc(35px  * var(--social-icon-scale));
+    padding-left: var(--social-icon-padding);
+    padding-right: var(--social-icon-padding);
 }
 
 .social-image {
